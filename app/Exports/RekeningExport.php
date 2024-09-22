@@ -33,7 +33,6 @@ class RekeningExport implements FromCollection, WithHeadings, WithStyles, WithCo
             'No HP',
             'Email',
             'Password',
-            'No HP',
             'User IB',
             'Pin IB',
             'Kode MB',

@@ -118,7 +118,7 @@ export default function EditUser({ details, attributes }) {
 						<InputError message={errors[attribute.data]} className="mt-2" />
 					</div>
 				);
-			case "date":
+			default:
 				return (
 					<div key={index} className="mb-4 col-span-1">
 						<InputLabel htmlFor={attribute.data} value={attribute.header} />

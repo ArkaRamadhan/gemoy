@@ -55,7 +55,7 @@ export default function DetailUser({ details, attributes }) {
 						</div>
 					</div>
 				);
-			case "date":
+			default:
 				return (
 					<div
 						key={index}
